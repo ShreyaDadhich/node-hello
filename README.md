@@ -22,13 +22,14 @@ Dockerfile: Created a Dockerfile to build the Docker image in multiple stages. I
 ### Step 2: Set up DockerHub Credentials
 Setting up DockerHub credentials allows GitHub Actions to authenticate and push Docker images to your DockerHub repository. 
 1. Go to repository on GitHub.
-2. Navigate to Settings > 'Secrets and Variables' > Actions > 'New repository secret'.
-3. Add  DockerHub username and password as secrets. Pass the variable in main.yml file
+2. Navigate to **Settings** > **Secrets and Variables** > **Actions** > **New repository secret**.
+    - DOCKER_USERNAME
+    - DOCKER_PASSWORD  
+4. Add DockerHub username and password as secrets. Pass the variable in main.yml file in GitHub actions
     ```
     secrets.DOCKER_USERNAME 
     secrets.DOCKER_PASSWORD
     ```
-
 
 ### Step 3: GitHub Actions Configuration
 Create a GitHub Actions workflow file 
