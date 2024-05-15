@@ -27,9 +27,9 @@ Setting up DockerHub credentials allows GitHub Actions to authenticate and push 
 
 ### Step 3: GitHub Actions Configuration
 1. Create a GitHub Actions workflow file to automatically create a new docker image and publish it on DockerHub
-```
-.github/workflows/main.yml
-```
+    ```
+    .github/workflows/main.yml
+    ```
 2. Pass the above created secrets to main.yml file in GitHub actions
     ```
     secrets.DOCKER_USERNAME 
