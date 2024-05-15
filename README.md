@@ -11,8 +11,8 @@ Before getting started, ensure you have the following installed:
 Before proceeding, follow these steps:
 1. Fork the repository.
 2. Clone repository to the local machine
-    ```
-    git clone https://github.com/ShreyaDadhich/node-hello.git
+    ```bash
+    $ git clone https://github.com/ShreyaDadhich/node-hello.git
     ```
 
 ### Step 1: Dockerization
